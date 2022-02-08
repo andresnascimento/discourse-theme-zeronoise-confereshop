@@ -34,7 +34,7 @@ p {
   & > li > a {
     background-color: transparent;
     border-bottom-width: 2px;
-    border-radius: 50px;
+    // border-radius: 50px;
     border-bottom-style: solid;
     border-bottom-color: transparent;
     padding: 0.75em 1.5em;
@@ -65,7 +65,7 @@ p {
   }
   .btn {
     position: relative;
-    background-color: $tertiary;
+    background-color: $success;
     color: var(--light-accent);
     .d-icon {
       color: currentColor;
@@ -614,5 +614,21 @@ div.menu-links-header .menu-links-row li a.active {
       }
     }
   }
+}
+
+
+.select-kit {
+  .single-select.is-expanded .select-kit-header:not(.btn) {
+    outline: none;
+    background-color: #E3E3ED;
+  }
+
+  .select-kit-header .select-kit-header-wrapper {
+    padding: 0 8px;
+  }
+}
+
+.list-controls ol.category-breadcrumb {
+  padding-left: 0;
 }
 

@@ -5,9 +5,9 @@
 .topic-list-item.visited a.title:not(.badge-notification),
 .latest-topic-list-item.visited a.title:not(.badge-notification),
 .category-topic-link.visited a.title:not(.badge-notification) {
-  color: var(--primary);
-  font-weight: 100;
-  opacity: 0.75;
+  color: $primary;
+  // font-weight: 100;
+  opacity: 0.50;
 }
 
 .latest-topic-list-item .bottom-row {
@@ -19,7 +19,7 @@
 .topic-list-item {
   position: relative;
   .main-link:first-of-type {
-    padding-left: 3rem;
+    padding-left: 4rem;
   }
   .posters {
     &:before {
@@ -51,21 +51,43 @@
   }
   td {
     padding: 1rem 0.5rem;
+    font-size: 18px;
+    color: $primary;
+  }
+  .num {
+    a {
+      transition: .3s;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
   tbody tr {
     border-bottom: none;
-    transition: background-color 1s;
-    &:hover {
-      transition: background-color 0.3s;
-      background-color: var(--secondary);
-    }
+    // transition: background-color 1s;
+    // &:hover {
+    //   transition: background-color 0.3s;
+    //   background-color: var(--secondary);
+    // }
   }
   a.title {
-    font-weight: 600;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 24px;
     font-family: var(--heading-font-family);
+    line-height: 28px;
+    transition: .3s;
+    &:hover {
+      color: $tertiary;
+    }
   }
   .suggested-topics & thead {
     background-color: transparent;
+  }
+
+  .link-bottom-line {
+    margin-top: 8px;
+  }
+  .topic-list-data {
+    padding: 20px 8px;
   }
 }

@@ -19,6 +19,7 @@
   align-items: flex-end;
 }
 
+
 .topic-list-item {
   position: relative;
   .main-link:first-of-type {
@@ -94,4 +95,16 @@
   .topic-list-data {
     padding: 20px 8px;
   }
+ .topic-list-item-separator {
+  .topic-list-data {
+    border-top: 1px solid #E3E3ED;
+    span {
+      color: $primary;
+      padding: 4px 8px;
+      font-size: 12px;
+      border-radius: 4px;
+      font-weight: 300;
+    }
+  }
+ }
 }

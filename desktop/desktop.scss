@@ -3,11 +3,10 @@
 .container {
   &.list-container,
   .user-content {
-    border-radius: 0 0.5rem 0.5rem 0.5rem;
-    box-shadow: 0px 15px 27px rgba(17, 7, 60, 0.15);
+    border-radius: 8px;
   }
   &.list-container {
-    padding: 24px 48px;
+    padding: 24px 40px;
   }
   &.posts {
     & > .row {

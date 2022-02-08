@@ -1,6 +1,12 @@
 @import "variables";
 @import "topic";
 @import "topic-list";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+
+
+body {
+  font-family: Fira Sans, sans-serif;
+}
 
 // General
 .btn {
@@ -517,22 +523,18 @@ div.menu-links-header .menu-links-row li a.active {
 // Category
 
 .badge-wrapper{
-  .bullet {
-    span {
-      .badge-category{
-        color: #5114D1;
-        background: #E9E5FFD1;
-        padding: 2px 8px;
-        border-radius: 4px;
-        transition: .3s;
-        &:hover{
-          color: #fff;
-          background: $tertiary;
-        }
+  .badge-category{
+    color: #5114D1;
+    background: #E9E5FFD1;
+    padding: 2px 8px;
+    border-radius: 4px;
+    transition: .3s;
+      &:hover{
+        color: #fff;
+        background: $tertiary;
       }
-    }
-    .badge-category-bg {
-      margin-right: 8px;
-    }
+  }
+  .badge-category-bg {
+    margin-right: 8px;
   }
 }

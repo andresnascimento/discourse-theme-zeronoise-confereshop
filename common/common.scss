@@ -548,6 +548,19 @@ div.menu-links-header .menu-links-row li a.active {
   }
 }
 
+.banner-box ~ .list-controls {
+  margin-bottom: 20px!important;
+  margin-top: -90px!important;
+  z-index: 100!important;
+position: relative!important;
+
+ .combo-box {
+  .combo-box-header {
+    background: transparent!important;
+  }
+ }
+}
+
 #main-container {
   #global-notice-alert-bootstrap-mode {
     position: absolute;
@@ -556,18 +569,6 @@ div.menu-links-header .menu-links-row li a.active {
     left: 20px;
     border-radius: 4px;
     padding: 16px;
-  }
-  .list-controls {
-    margin-bottom: 20px!important;
-    margin-top: -90px!important;
-    z-index: 100!important;
-  position: relative!important;
-  
-   .combo-box {
-    .combo-box-header {
-      background: transparent!important;
-    }
-   }
   }
 }
 

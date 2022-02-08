@@ -552,24 +552,23 @@ div.menu-links-header .menu-links-row li a.active {
   #global-notice-alert-bootstrap-mode {
     position: absolute;
     z-index: 100;
-    bottom: 0;
     max-width: 16%;
     left: 20px;
     border-radius: 4px;
     padding: 16px;
   }
-}
-
-
-.list-controls {
-  margin-bottom: 20px!important;
-  margin-top: -90px!important;
-  z-index: 100!important;
-position: relative!important;
-
- .combo-box {
-  .combo-box-header {
-    background: transparent!important;
+  .list-controls {
+    margin-bottom: 20px!important;
+    margin-top: -90px!important;
+    z-index: 100!important;
+  position: relative!important;
+  
+   .combo-box {
+    .combo-box-header {
+      background: transparent!important;
+    }
+   }
   }
- }
 }
+
+

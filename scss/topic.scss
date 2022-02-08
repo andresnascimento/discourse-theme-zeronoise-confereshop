@@ -43,13 +43,13 @@
 
 .topic-category {
   margin-left: 3px;
-  .bullet,
-  .discourse-tags {
-    border: 1px solid #ccc;
-    border-radius: 16px;
-    padding: 0 8px;
-    background-color: var(--secondary);
-  }
+  // .bullet,
+  // .discourse-tags {
+  //   // border: 1px solid #ccc;
+  //   // border-radius: 16px;
+  //   // padding: 0 8px;
+  //   // background-color: var(--secondary);
+  // }
 }
 
 aside.onebox {
@@ -115,6 +115,11 @@ aside.onebox {
   .btn:last-child {
     margin-right: 0;
   }
+  .topic-notifications-button {
+    .reason {
+      color: $primary;
+    }
+  }
 }
 
 #topic-title {
@@ -149,5 +154,14 @@ aside.onebox {
   .categories-wrapper,
   .topic-header-extra {
     display: none;
+  }
+}
+
+.discourse-no-touch {
+  .sortable{
+    &:hover {
+      background-color: transparent;
+      color: $tertiary;
+    }
   }
 }

@@ -545,24 +545,35 @@ div.menu-links-header .menu-links-row li a.active {
 .banner-box {
   .single-box {
     padding: 170px 0!important;
+    text-align: left!important;
+    .x-title {
+      padding-top: 24px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0px 24px 32px rgba(58, 1, 116, 0.2);
+    }
+  }
+
+  p {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38px;
+  }
+
+  .container {
+    max-width: 50%!important;
+  }
+
+  h1 {
+    text-align: left!important;
+    color: #ffffff;
+    font-size: 56px!important;
   }
 }
-
-// .below-site-header-outlet ~ .wrap {
-//   .list-controls {
-//     margin-bottom: 20px!important;
-//     margin-top: -90px!important;
-//     z-index: 100!important;
-//   position: relative!important;
-  
-//    .combo-box {
-//     .combo-box-header {
-//       background: transparent!important;
-//     }
-//    }
-//   }
-// }
-
 
 #main-container {
   #global-notice-alert-bootstrap-mode {

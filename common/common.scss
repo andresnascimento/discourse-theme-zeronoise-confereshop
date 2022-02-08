@@ -591,10 +591,12 @@ div.menu-links-header .menu-links-row li a.active {
 
 // POSTS
 
-.container.posts > .row {
-  padding: 24px;
-  border-radius: 8px;
-  box-shadow: none;
+.container {
+  .posts > .row {
+    padding: 24px!important;
+    border-radius: 8px!important;
+    box-shadow: none!important;
+  }
 }
 
 .suggested-topics {

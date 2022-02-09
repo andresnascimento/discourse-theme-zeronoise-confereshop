@@ -599,7 +599,9 @@ div.menu-links-header .menu-links-row li a.active {
 }
 
 .dropdown-select-box-header {
-  background-color: $tertiary!important;
+  .categories-admin-dropdown {
+    background-color: $tertiary!important;
+  }
 }
 
 #main-container {

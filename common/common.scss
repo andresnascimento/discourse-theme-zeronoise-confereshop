@@ -105,10 +105,31 @@ p {
   }
 }
 
-.category-list .category-name {
-  font-size: 1.2rem;
-  text-transform: capitalize;
-  letter-spacing: 0;
+
+.category-list {
+  th {
+    color: #827F9E;
+    font-weight: 300;
+  }
+  .category-name {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 0;
+  }
+  .category{
+    h3 {
+      margin-top: 16px;
+    }
+    .category-description {
+      color: #827F9E;
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+.latest-topic-list .table-heading {
+  color: #827F9E;
 }
 
 .header-title {
@@ -531,7 +552,7 @@ div.menu-links-header .menu-links-row li a.active {
     border-radius: 4px;
     transition: .3s;
       &:hover{
-        color: #fff;
+        color: #fff!important;
         background: $tertiary;
       }
   }
@@ -574,6 +595,10 @@ div.menu-links-header .menu-links-row li a.active {
     color: #ffffff;
     font-size: 56px!important;
   }
+}
+
+.dropdown-select-box-header {
+  background-color: $tertiary!important;
 }
 
 #main-container {

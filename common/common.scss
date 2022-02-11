@@ -568,7 +568,7 @@ div.menu-links-header .menu-links-row li a.active {
 .banner-box {
   .single-box {
     padding: 40px 0!important;
-    text-align: left!important;
+    // text-align: left!important;
     .x-title {
       padding-top: 24px;
     }
@@ -588,20 +588,17 @@ div.menu-links-header .menu-links-row li a.active {
     line-height: 38px;
   }
 
-  .container {
-    // max-width: 56%!important;
-  }
-
   h1 {
     text-align: left!important;
     color: #ffffff;
     font-size: 56px!important;
+    line-height: 60px;
   }
-
+  .first_column {
+    text-align: left!important;
+  }
   .second_column {
-    .single-box{
-      text-align: center!important;
-    }
+    text-align: center!important;
   }
 
 }
@@ -671,10 +668,17 @@ div.menu-links-header .menu-links-row li a.active {
 
 @media only screen and (min-width: 1640px) {
   .banner-box {
-    
-
     .container {
       max-width: 66%!important;
+    }
+
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .banner-box {
+    .container {
+      max-width: 58%!important;
     }
 
   }
